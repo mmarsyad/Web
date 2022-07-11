@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Tradisional Nusantara</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Sumatra Barat</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : https://www.youtube.com/watch?v=AgMJryu2zAIQ</p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Arvan/Tari Indang/indang 1-modified.jpg" alt="Tari Indang">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Indang</strong></p>
+                              </blockquote>
+                            <p class="konten">arian adat tradisional yang juga cukup terkenal dari Sumatera adalah Tari Indang. Tari Indang adalah tarian khas atau tarian adat yang berasal dari Pariaman, Sumatera Barat.
+                              Tari Indang dikenal juga dengan nama Tari Badindin, Tari Dindin Badindin, atau Tari Indang Badindin yang semuanya merujuk pada lagu pengiring tarian ini, “dindin badindin“.
+                              Adapun istilah “indang” mewakili alat musik sejenis rebana namun ukurannya lebih kecil, berkisar 18-15 cm. Dalam hal ini, indang difungsikan sebagai metronom (pengatur tempo).
+                              Tari tradisional ini adalah suatu bentuk sastra lisan yang disampaikan secara berkelompok.
+                              Selain sebagai tari keagamaan yang difungsikan sebagai media dakwah Islam, saat ini Tari Indang juga merupakan tari pergaulan muda-mudi.
+                              Dihadirkan dengan gerakan yang kompak, dinamis dan cenderung ceria. Hal ini para penarinya dituntun untuk selalu bekerja sama antara satu dengan yang lainnya.
+                              Tarian Indang merupakan tari muda-mudi yang ditampilkan sederhana sehingga tidak ada tata rias khusus pada wajah pemainnya.
+                              Hal ini juga berlaku pada busana, para pemain Tari Indang umumnya menggunakan kostum sederhana khas Minangkabau.
+                              Secara keseluruhan, tari ini merepresentasikan masyarakat Pariaman yang bersahaja, saling menghormati, serta taat memeluk agamanya.
+                              </p>
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Arvan/Tari Indang/indang 1-modified.jpg" alt="...">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Arvan/Tari Indang/indang 2-modified.png" alt="...">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Arvan/Tari Indang/indang 3-modified.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Arvan/Tari Indang/indang 1.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Arvan/Tari Indang/indang 1-modified.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Arvan/Tari Indang/indang 2.png")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Arvan/Tari Indang/indang 2-modified.png")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Arvan/Tari Indang/indang 3.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Arvan/Tari Indang/indang 3-modified.jpg")
+          }
+        </script>
+    </body>
+</html>

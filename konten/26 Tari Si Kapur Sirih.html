@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Tradisional Nusantara</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Sumatra</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : https://www.youtube.com/watch?v=tnpwnJxhyKM</p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Arvan/Tari Sikapur Sirih/si kapur sirih 1-modified.jpeg" alt="Tari Si kapur Sirih">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Si Kapur Sirih </strong></p>
+                              </blockquote>
+                            <p class="konten">Tari Sekapur Sirih merupakan tarian selamat datang kepada tamu-tamu besar di Provinsi Jambi, Kepulauan Riau, Riau dan juga Bengkulu.
+                                Tarian ini juga terkenal di Malaysia sebagai tarian wajib kepada tamu besar.
+                                Keagungan dalam gerak yang lembut dan halus menyatu dengan iringan musik serta syair yang ditujukan bagi para tamu.
+                                Menyambut dengan hati yang putih muka yang jernih menunjukkan keramahtamahan bagi tetamu yang dihormati.
+                                Tari ini menggambarkan ungkapan rasa putih hati masyarakat dalam menyambut tamu.
+                                Tari Sekapur Sirih biasanya ditarikan oleh 9 orang penari perempuan, dan 3 orang penari laki-laki, 1 orang yang bertugas membawa payung dan 2 orang pengawal.
+                                Propetri yang digunakan pada Tari Sekapur Sirih adalah cerano/wadah yang berisikan lembaran daun sirih, payung, keris.
+                                Untuk Pakaianya yakni baju kurung /adat Jambi, iringan musik langgam melayu dengan alat musik yang terdiri dari: biola, gambus, akordion, rebana, gong dan gendang.
+                              </p>
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Arvan/Tari Sikapur Sirih/si kapur sirih 1-modified.jpeg" alt="...">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Arvan/Tari Sikapur Sirih/si kapur sirih 2-modified.webp" alt="...">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Arvan/Tari Sikapur Sirih/si kapur sirih 3-modified.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Arvan/Tari Sikapur Sirih/si kapur sirih 1.jpeg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Arvan/Tari Sikapur Sirih/si kapur sirih 1-modified.jpeg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Arvan/Tari Sikapur Sirih/si kapur sirih 2.webp")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Arvan/Tari Sikapur Sirih/si kapur sirih 2-modified.webp")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Arvan/Tari Sikapur Sirih/si kapur sirih 3.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Arvan/Tari Sikapur Sirih/si kapur sirih 3-modified.jpg")
+          }
+        </script>
+    </body>
+</html>

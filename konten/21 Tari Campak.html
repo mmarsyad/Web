@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Tradisional Nusantara</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Sumatra</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : https://ungu.in/taricampak</p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Arvan/Tari Campak/campak 1-modified.jpg" alt="Tari Campak">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Campak</strong></p>
+                              </blockquote>
+                            <p class="konten">Tari Campak merupakan tarian dari daerah Bangka-Belitung yang menggambarkan keceriaan bujang dan dayang di Kepulauan Bangka Belitung. Tarian ini biasanya dibawakan setelah panen padi atau sepulang dari ume (kebun).
+                              Tari ini digunakan juga sebagai hiburan dalam berbagai kegiatan seperti penyambutan tamu atau pada pesta pernikahan di Bangka Belitung.
+                              Tarian ini berkembang pada masa pendudukan bangsa Portugis di Bangka Belitung.
+                              Hal ini bisa dilihat dari beberapa ragam pada tari Campak antara lain akordion dan pakaian pada penari perempuan yang sangat kental dengan gaya Eropa.
+                              </p>
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Arvan/Tari Campak/campak 1-modified.jpg" alt="...">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Arvan/Tari Campak/campak 2-modified.jpg" alt="...">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Arvan/Tari Campak/campak 3-modified.jpeg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Arvan/Tari Campak/campak 1.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Arvan/Tari Campak/campak 1-modified.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Arvan/Tari Campak/campak 2.jpg")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Arvan/Tari Campak/campak 2-modified.jpg")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Arvan/Tari Campak/campak 3.jpeg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Arvan/Tari Campak/campak 3-modified.jpeg")
+          }
+        </script>
+    </body>
+</html>
