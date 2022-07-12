@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Ta' Lande</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Kalimantan Utara</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : </p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Galih/Tari Ta' Lande/Tari lande1.jpg" alt="Tari Ta' Lande">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Ta' Lande</strong></p>
+                              </blockquote>
+                            <p class="konten">Ta'lande merupakan paduan lantunan syair dan tarian yang biasanya disuguhkan saat irau (pesta besar) suku Dayak Lundayeh yang ada di Nunukan, Kalimantan Utara. Orang-orang yang bisa mencapai ratusan berdiri berantai dengan memegang bahu orang di depannya, lalu berjalan mengikuti irama musik sampek. Persis formasi permainan anak "kereta-keretaan". Mereka berjalan pelan dalam langkah serempak sambil diiringi nyanyian "Ta'lande... ta'lande....". Kalau dilihat pertunjukan ta'lande sangatlah mudah. Belasan orang itu hanya berjalan memutar bersama-sama di tempat terbuka. Orang yang berada paling depan biasanya pintar menyanyi dan hafal syair-syair yang merupakan tradisi lisan warisan nenek moyang. Namun, pada pertunjukan tersebut, pemimpin di depan hanya mengatur langkah, menyesuaikan irama musik sampek yang dipetik.</p>
+                            <p class="konten">Sekilas, tarian dan lagu itu memang terkesan bersahaja. Namun, jika dicermati lebih dalam, ada filosofi yang menggugah. Lihatlah para perempuan yang menari melingkar-lingkar tersebut. Mereka sangat cantik dengan busana khas yang elok. Riasan wajah sederhana menambah semringah suasana. Para perempuan cantik itu menyerukan ajakan kerukunan, keharmonisan, dan kebersamaan. Masyarakat adat mengajarkan beragam kearifan di dalam berbicara dan berperilaku. Melalui syair, berbagai permohonan disampaikan. Begitu pula syair-syair ta'lande yang mengandung aneka makna seperti penghormatan dan penghargaan kepada seseorang atau sebaliknya, yakni kritik kepada pemimpin. Syair juga berisi sindiran, kisah lucu, hingga kata-kata romantis untuk muda-mudi yang sedang jatuh cinta.</p>
+                            <p class="konten">Pada masa dulu, ta'lande biasanya dipraktikkan ketika irau. Ta'lande menjadi satu prosesi rasa syukur kepada Tuhan atas panen yang mencukupi hidup. Harapan dan doa-doa berhamburan di dalam syair yang dilantunkan. Warga Dayak Lundayeh yakin, doa dengan keikhlasan hati pasti terkabul.</p>
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Galih/Tari Ta' Lande/Tari lande2.jpg" alt="...">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Galih/Tari Ta' Lande/Tari lande1.jpg" alt="...">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Galih/Tari Ta' Lande/Tari lande2.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Galih/Tari Ta' Lande/Tari lande1.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Galih/Tari Ta' Lande/Tari lande2.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Galih/Tari Ta' Lande/Tari lande2.jpg")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Galih/Tari Ta' Lande/Tari lande1.jpg")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Galih/Tari Ta' Lande/Tari lande1.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Galih/Tari Ta' Lande/Tari lande2.jpg")
+          }
+        </script>
+    </body>
+</html>

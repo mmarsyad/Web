@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Magunatip</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Kalimantan Utara</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : </p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Galih/Tari Magunatip/Tari Magunatip1.jpg" alt="Tari Magunatip">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Magunatip</strong></p>
+                              </blockquote>
+                            <p class="konten">Lalatip menurut asal usulnya, lahir dari suku Dayak Tahol. Yaitu tepatnya di daerah Tarakan, Nunukan dan Malinau, Provinsi Kalimantan Utara. Komunitasnya salah satunya ada di Desa Salap, Kabupaten Malinau. Berasal dari kata “lalati” yang dalam bahasa dayak berarti “menjepit”. Ya, kaki para penarilah yang bisa saja terjepit. Nah, pada awalnya, lalatip hanyalah sebuah latihan mengasah keterampilan berperang, yang wajib dimiliki para pemudanya. Karena, perang antar suku yang seringkali terjadi. Sehingga mengancam penduduk suku Dayak Tahol. Latihan ini berupa ketangkasan kaki untuk melompat dan menghindar dari rintangan.</p>
+                            <p class="konten">Seiring perkembangan zaman, latihan ini berubah menjadi sebuah tarian. Tarian inilah yang kini menjadi kekayaan suku Dayak Tahol. Tari lalatip / magunatip memang tidak sepopuler beberapa tarian lain dari suku dayak. Sebut saja seperti tari Balean Dadas atau pun tari Giring-giring. Akan tetapi, pemerintah dari provinsi yang baru diresmikan pada 25 Oktober 2012 ini, giat menggenjot kebudayaannya. Bahkan, tari magunatip / lalatip sudah terdaftar pada tahun 2017, sebagai Warisan Budaya Tak Benda (WBTB) di catatan Kementerian Pendidikan dan Kebudayaan RI.</p>
+                            <p class="konten">Dalam tarian lalatip / magunatip ini, para penonton akan dibuat berdebar-debar hingga terkesima. Karena, para penari akan ditutup matanya dan melompat oleh beberapa bilah batang kayu bergerak-gerak. Jika terlambat melompat (menghindar), maka kaki mereka bisa terjepit. Keunikan tari lalatip adalah pada atraksi melompat di antara bilah kayu yang menari-nari mengikuti iringan musik. Kunci dari tari lalatip / magunatip terletak pada fokus, konsentrasi dan kestabilan.</p>
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Galih/Tari Magunatip/Tari Magunatip2.jpg" alt="...">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Galih/Tari Magunatip/Tari Magunatip1.jpg" alt="...">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Galih/Tari Magunatip/Tari Magunatip2.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Galih/Tari Magunatip/Tari Magunatip1.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Galih/Tari Magunatip/Tari Magunatip2.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Galih/Tari Magunatip/Tari Magunatip2.jpg")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Galih/Tari Magunatip/Tari Magunatip1.jpg")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Galih/Tari Magunatip/Tari Magunatip1.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Galih/Tari Magunatip/Tari Magunatip2.jpg")
+          }
+        </script>
+    </body>
+</html>

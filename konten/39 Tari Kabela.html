@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Kabela</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/konten.css">
+
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Sulawesi Utara</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : </p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Acin/Tari Kabela/kabela-modified.jpg" alt="Tari Kipas pakarena">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Kabela</strong></p>
+                              </blockquote>
+                            <p class="konten">Tari Kabela adalah tari penjemputan tamu, yang berasal dari Bolaang Mongondow, Sulawesi Utara, Indonesia. Tari Kabela digelar untuk menyambut tamu yang dekat maupun jauh. Dalam bahasa Bolaang Mongondow, Kabela disebut boyo-boyo yang artinya tempat sirih pinang. Sebelum tamu menyampaikan maksud dan tujuannya, tuan rumah terlebih dahulu menyuguhkan sirih pinang. Hal ini sesuai dengan semboyan hidup bermasyarakat mototompiaan, motatabian, bo mototanoban yang artinya saling memperbaiki, saling mengingatkan, dan saling melengkapi. Kabela sendiri artinya kotak yang berisi pinang, sirih, dan cengkih. Ukuran kotak tersebut biasanya berukuran (10cm x 5cm x 5cm) sampau ukuran (30cm x 25cm x 20 cm). Bagian luar kotak kecil tersebut (kabela) dihias dengan maink-manik yang berbentuk simbol kehidupan atau geometrik. Tari Kable bisanya dimainkan oleh 3 hingga 9 penari dan diiringi musik atau lagu tradisional Bolaang Mongondow. Durasi tarian ini kira-kira tujuh menit. Kini, dalam kotak kabela, tidak lagi ditaruh sirih pinang, melainkan bunga-bunga yang akan ditaburkan atau dipancarkan kepada tamu yang datang.</p>
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Acin/Tari Kabela/kabela-modified.jpg"  alt="...">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Acin/Tari Kabela/kabela2-modified.jpg"  alt="...">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Acin/Tari Kabela/kabela3-modified.jpg"  alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Acin/Tari Kabela/kabela.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Acin/Tari Kabela/kabela-modified.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Acin/Tari Kabela/kabela2.jpg")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Acin/Tari Kabela/kabela2-modified.jpg")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Acin/Tari Kabela/kabela3.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Acin/Tari Kabela/kabela3-modified.jpg")
+          }
+        </script>
+    </body>
+</html>

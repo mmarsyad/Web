@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Tambun dan Bungai</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Kalimantan Tengah</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : </p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Galih/Tari Tambun dan Bungai/Tari tambun1.jpg" alt="Tari Tambun dan Bungai">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Tambun dan Bungai</strong></p>
+                              </blockquote>
+                            <p class="konten">Dilansir dari Direktorat Jenderal Kekayaan Intelektual, Tambun dan Bungai adalah legenda Suku Dayak ot Danum yang tinggal di Kalimantan Tengah khususnya wilayah Kabupaten Gunung Mas. Tambun dan Bungai adalah saudara kaka beradik yang memiliki sifat yang luhur, cerdas, ramah, bijaksana, senang membantu, dan menolong sesama, berani memperjuangkan kebenaran, lemah lembut, serta memiliki ikatan batin yang kuat.</p>
+                            <p class="konten">Dikisahkan suatu hari ada musuh yang ingin merampas hasil panen rakyat Kalimantan Tengah. Pada saat itulah Tambun dan Bungai bersaudara mengalahkan musuh-musuh tersebut dan menjadi pahlawan bagi rakyat. Dilansir dari Wisata Kalimantan, Nyai Undang raja di Pematang Sawah memberikan gelar Tumenggung Tambun Ringkin Duhung dan Tumenggung Bungai Andin Sindai atas kepahlawanannya. Tambun dan Bungai dianggap sebagai leluhur Suku Dayak di Kalimantan. Untuk menghormati keduanya maka diciptakan tarian Tambun dan Bungai yang masih dipelajari hingga sekarang. Makna Tari Tambun dan Bungai adalah mengenang, menghormati, dan mengingatkan akan kepahlawanan leluhur Suku Dayak. Dengan mengenang jasa para pahlawan, kita dapat lebih bersyukur akan apa yang dimiliki hari ini.</p>
+                            <p class="konten">Penari Tambun dan Bungai menggunakan pakaian adat dari Palangkaraya, Kalimantan Tengah yang seragam dan berwarna terang. Gerakan Tari Tambun dan Bungai memiliki gerakan yang dinamis dan harmonis dengan pola lantai gerakan tari yang horizontal. Tari Tambun dan Bungai awalnya ditarikan dalam upacara adat, namun saat ini telah menjadi kesenian yang dapat digelar pada berbagai acara.</p>
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Galih/Tari Tambun dan Bungai/Tari tambun2.jpg" alt="...">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Galih/Tari Tambun dan Bungai/Tari tambun1.jpg" alt="...">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Galih/Tari Tambun dan Bungai/Tari tambun2.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "Image/Tari tambun1.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Galih/Tari Tambun dan Bungai/Tari tambun2.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Galih/Tari Tambun dan Bungai/Tari tambun2.jpg")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Galih/Tari Tambun dan Bungai/Tari tambun1.jpg")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Galih/Tari Tambun dan Bungai/Tari tambun1.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Galih/Tari Tambun dan Bungai/Tari tambun2.jpg")
+          }
+        </script>
+    </body>
+</html>
