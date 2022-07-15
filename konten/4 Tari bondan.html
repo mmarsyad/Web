@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Tradisional Nusantara</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Jawa tengah</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : https://youtu.be/9WbQhLnlVNw</p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Bayu/tari bondan/tari bondan 2 bw.jpg" alt="Tari Bondan">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Bondan</strong></p>
+                              </blockquote>
+                            <p class="konten">Tari bondan adalah salah satu contoh tari klasik yang berasal dari daerah Surakarta, Jawa Tengah. Dibandingkan dengan tari-tarian tradisional lainnya, tari bondan dianggap memiliki keunikan tersendiri. Tarian yang dimainkan dengan properti berupa payung, boneka bayi dan kendi ini dikatakan unik karena berbagai gerakannya menceritakan tentang kisah dan kasih sayang seorang ibu kepada anak bayinya. Simak penelusuran kami mengenai asal usul, sejarah, gerakan, dan informasi mengenai tarian tersebut berikut ini.</p>
+
+                            <p class="konten">Tari bondan adalah tari yang terlahir dari kebudayaan masyarakat Surakarta masa silam. Tarian ini mengisahkan tentang seorang ibu yang mengasuh anaknya, memberikan kasih sayang, dan merawat bayinya hingga besar. Tidak diketahui siapa sebetulnya orang yang menciptakannya, yang jelas tarian ini, kini menjadi sangat populer dan sering dipentaskan dalam berbagai kesempatan. </p>
+
+                            <p class="konten"> Sejarah dan Asal Usul Tari Bondan Berdasarkan sejarahnya, Tari Bondan dulunya merupakan tarian wajib bagi para kembang desa di kerajaan Mataram Lama. Tarian ini dimainkan untuk menunjukan jati diri sebagai seorang yang meski cantik, tapi tetap memiliki jiwa keibuan.</p>
+
+                            <p class="konten"> Tari Bondan adalah salah satu contoh tari klasik yang berasal dari daerah Surakarta, Jawa Tengah. Dibandingkan dengan tari-tarian tradisional lainnya, tari bondan dianggap memiliki keunikan tersendiri. Tarian yang dimainkan dengan properti berupa payung, boneka bayi dan kendi ini dikatakan unik karena berbagai gerakannya menceritakan tentang kisah dan kasih sayang seorang ibu kepada anak bayinya.</p>
+
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Bayu/tari bondan/tari bondan 1 bw.jpg" alt="..." width =" auto"  height="200">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Bayu/tari bondan/tari bondan 2 bw.jpg" alt="..." width =" auto"  height="200">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Bayu/tari bondan/tari bondan 3 bw.jpg" alt="..." width =" auto"  height="200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Bayu/tari bondan/tari bondan 1.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Bayu/tari bondan/tari bondan 1 bw.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Bayu/tari bondan/tari bondan 2.jpg")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Bayu/tari bondan/tari bondan 2 bw.jpg")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Bayu/tari bondan/tari bondan 3.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Bayu/tari bondan/tari bondan 3 bw.jpg")
+          }
+        </script>
+    </body>
+</html>

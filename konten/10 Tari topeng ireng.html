@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Tradisional Nusantara</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: jawa tengah</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : https://youtu.be/lNVk2HbEfYA</p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Bayu/Tari topeng ireng/topeng ireng 1 bw.jpg" alt="Tari Topeng Ireng">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Topeng ireng</strong></p>
+                              </blockquote>
+                            <p class="konten">Tari topeng ireng atau reog topeng ireng ini merupakan sebuah tarian rakyat yang berkembang di lereng gunung merapi dan merbabu, khususnya di daerah kecamatan Selo kabupaten Boyolali. Karena tarian ini menggambarkan tradisi kehidupan masyarakat lereng gunung yang sangat akrab dengan alam.</p>
+                            <p class="konten">Tarian topeng ireng ini memiliki ciri khas yang sedikit berbeda dibandingkan dengan tarian lainnya, karena tarian ini memakai kerincingan yang dipakai/diikatkan pada kaki kanan dan kiri penarinya. Sehingga, kerincingan itu akan berbunyi saat penarinya melakukan gerakan. Bahkan bukan sebatas itu saja, penari pada tarian ini juga menggunakan topi yang dipakai di atas kepala sang penari dan topinya itu berliuk-liuk saat penari melakukan gerakan. Kebih tepatnya sih, para penari topeng ireng mengenakan pakaian yang mirip dengan orang Indian di Amerika.</p>
+                            <p class="konten">Sampai saat ini, belum diketahui secara pasti tentang sejarah topeng ireng. Topeng ireng sendiri bermakna toto lempeng irama kenceng. Toto lempeng, toto dalam bahasa Jawa artinya tata atau susunan, sedangkan lempeng dalam bahasa Jawanya adalah lurus. Sehingga bisa disimpulkan, toto lempeng berarti kesenian topeng ireng ini memiliki pola lantai yang kebanyakan memakai pola lurus. Sementara iromo kenceng, iroma dalam bahasa Jawa artinya irama dan kenceng dalam bahasa Jawa artinya cepat. Jadi bisa disimpulkan, iromo kenceng adalah irama yang cepat. Dan secara keseluruhan bisa disimpulkan bahwa topeng ireng ini adalah tarian yang memiliki pola lurus dengan irama yang cepat.</p>
+                
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Bayu/Tari topeng ireng/topeng ireng 1 bw.jpg" alt="..." width =" auto"  height="220">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Bayu/Tari topeng ireng/topeng ireng 2 bw.jpg" alt="..." width =" auto"  height="250">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Bayu/Tari topeng ireng/topeng ireng 3 bw.jpg" alt="..." width =" auto"  height="300">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Bayu/Tari topeng ireng/topeng ireng 1.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Bayu/Tari topeng ireng/topeng ireng 1 bw.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Bayu/Tari topeng ireng/topeng ireng 2.jpg")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Bayu/Tari topeng ireng/topeng ireng 2 bw.jpg")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Bayu/Tari topeng ireng/topeng ireng 3.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Bayu/Tari topeng ireng/topeng ireng 3 bw.jpg")
+          }
+        </script>
+    </body>
+</html>

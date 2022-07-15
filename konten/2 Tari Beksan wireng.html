@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Tradisional Nusantara</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/konten.css">
+  </head>
+  
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-black p-md-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">Tari Tradisional Nusantara</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../konten.html">Konten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../kontak.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-5">
+                <div class="container-fluid">
+                    <div class="d-flex py-5 px-5">
+                        <div class="p-2 py-5 position-sticky details">
+                            <p class="font-monospace text-muted">Asal: Jawa tengah</p>
+                            <br>
+                            <p class="font-monospace text-muted">Kondisi: Masih bertahan</p>
+                            <br>
+                            <p class="font-monospace text-muted">Link Video : https://youtu.be/dxBbZUBO38I</p>
+                        </div>
+                        <div class="p-2 main-body flex-grow-1 px-5 py-5 text-center">
+                            <img class="img-thumbnail img_head" src="../img/Bayu/beksan wireng/Beksanwireng.1.bw.jpg" alt="Tari Beksan Wireng">
+                            <blockquote class="blockquote">
+                                <p style="font-size:25px"><strong>Tari Beksan ireng</strong></p>
+                              </blockquote>
+                            <p class="konten">Beksan Wireng : berasal dari kata Wira (perwira) dan ‘Aeng’ yaitu prajurit yang unggul, yang ‘aeng’, yang ‘linuwih’. Tari ini diciptakan pada jaman pemerintahan Prabu Amiluhur dengan tujuan agar para putra beliau tangkas dalam olah keprajuritan dengan menggunakan alat senjata perang. Sehingga tari ini menggambarkan ketangkasan dalam latihan perang dengan menggunakan alat perang. Tujuan diciptakannya tarian ini untuk menyemangati 4 prajurit perang yang saat itu yang sedang berlatih. Hal ini terlihat dengan gerakan-gerakan para penari yang gagah perkasa sedang membawa tombak dan tameng. Karena tarian ini memang mengandung tema perang..</p>
+
+                            <p class="konten">Dengan berkembangnya zaman, tarian ini terbagi menjadi 6 jenis yaitu Panji Sepuh, Panju Anem, Dhadap Kanoman, Jemparing Ageng, Lhawung Ageng dan Dhadhap Kreta. Biasanya tarian ini ditarikan oleh laki-laki dan menggunakan kostum bak seorang prajurit </p>
+                            <p class="konten">Ciri-ciri tarian ini :
+                                — Ditarikan oleh dua orang putra/i
+                                — Bentuk tariannya sama
+                                — Tidak mengambil suatu cerita
+                                — Tidak menggunakan ontowacono (dialog)
+                                — Bentuk pakaiannya sama
+                                — Perangnya tanding, artinya tidak menggunakan gending sampak/srepeg, hanya
+                                iramanya/temponya kendho/kenceng
+                                — Gending satu atau dua, artinya gendhing ladrang kemudian diteruskan gendhing ketawang
+                                — Tidak ada yang kalah/menang atau mati.
+                                </p>
+                        </div>
+                        <div class="align-content-center position-sticky gambar">
+                          <img id="img_tari" class="rounded float-start my-3 img_tari" src="../img/Bayu/beksan wireng/Beksanwireng.1.bw.jpg" alt="..." width =" auto"  height="200">
+                          <img id="img_tari2" class="rounded float-start my-3 img_tari2" src="../img/Bayu/beksan wireng/Beksanwireng.2.bw.jpg" alt="..." width =" auto"  height="200">
+                          <img id="img_tari3" class="rounded float-start my-3 img_tari3" src="../img/Bayu/beksan wireng/Beksanwireng.3.bw.jpg" alt="..." width =" auto"  height="200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+
+          function ubahGambar(idGambar, path) {
+            idGambar.src = path
+          }
+
+          let image = document.getElementById("img_tari")
+          let image2 = document.getElementById("img_tari2")
+          let image3 = document.getElementById("img_tari3")
+
+          /*Masukkan Path Gambar hitam putih dan berwarna*/
+
+          image.onmouseover=function() {
+            ubahGambar(image, "../img/Bayu/beksan wireng/Beksanwireng.1.jpg")
+          }
+
+          image.onmouseout=function() {
+            ubahGambar(image, "../img/Bayu/beksan wireng/Beksanwireng.1.bw.jpg")
+          }
+
+          image2.onmouseover=function() {
+            ubahGambar(image2, "../img/Bayu/beksan wireng/Beksanwireng.2.jpg")
+          }
+
+          image2.onmouseout=function() {
+            ubahGambar(image2, "../img/Bayu/beksan wireng/Beksanwireng.2.bw.jpg")
+          }
+
+          image3.onmouseover=function() {
+            ubahGambar(image3, "../img/Bayu/beksan wireng/Beksanwireng.3.jpg")
+          }
+
+          image3.onmouseout=function() {
+            ubahGambar(image3, "../img/Bayu/beksan wireng/Beksanwireng.3.bw.jpg")
+          }
+        </script>
+    </body>
+</html>
